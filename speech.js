@@ -17,6 +17,7 @@ var params = {
   'keywords_threshold': 0.5
 };
 
+
 // Create the stream.
 var recognizeStream = speech_to_text.createRecognizeStream(params);
 
