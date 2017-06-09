@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thanigavel/learnnodejs.git"
+    "url": "git+https://github.com/thanigavel/learnnodejs.git"
   },
   "author": "",
   "license": "ISC",
