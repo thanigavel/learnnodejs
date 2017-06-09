@@ -3,13 +3,13 @@ var fs = require('fs');
 
 var speech_to_text = new SpeechToTextV1 ({
   username: '{username}',
-  password: '{password}'
+  password: '{password}' 
 });
 
 var params = {
   model: 'en-US_BroadbandModel',
   content_type: 'audio/flac',
-  'interim_results': true,
+  'interim_results': false,
   'max_alternatives': 3,
   'word_confidence': false,
   timestamps: false,
