@@ -3,7 +3,7 @@ var fs = require('fs');
 
 var speech_to_text = new SpeechToTextV1 ({
   username: '{username}',
-  password: '{test}' 
+  password: '{}' 
 });
 
 var params = {
