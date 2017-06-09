@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/thanigavel/learnnodejs#readme",
   "dependencies": {
+    "fs": "0.0.1-security",
     "watson-developer-cloud": "^2.32.1"
   }
 }
